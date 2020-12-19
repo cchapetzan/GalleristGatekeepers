@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+	<meta http-equiv='X-UA-Compatible' content="IE=edge"> 
+	<title>Gallerist Gatekeepers</title> 
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
+	<script src="js/polaroids.js"></script> 
+	<link rel="stylesheet"  type="text/css" href="css/polaroids.css"/> 
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:wght@300;400;500;700&family=Rubik:wght@900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div id="banner"> 
+			<h1>Gallerist Gatekeepers</h1> 
+	</div>
+		<div id="mySideBar" class="sidebar"> 
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+			<a href="index.html">Home</a>
+			<a href="meetTheArtist.html">Meet the artist</a>
+			<a href="gallery.html">Gallery Exhibition</a>
+			<a href="store02.html">Shopping</a>
+			<a href="stopToBuy.html">Stop to Buy</a>
+			<a href="aboutUs.html">About Us</a>
+			<a href="member.html">Member Area</a>
+			<a href="contactUs.html">Contact Us</a>
+		</div>	
+	<div id="main"> 
+	<span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; menu</span> 
+		<div style="text-align:center">
+			<h2>AMAZING	&lt;ORDINAARYY&gt; LIFE</h2>
+			<h2>VIRTUAL EXHIBITION</h2>
+			<h3>Polaroids taken by the artist during the Last Summer/Winter of 2019.</h3>
+			<p>Click on the images below to get a virtual copy in your email.</p>
+		</div>
+			<div class="galleryrows">
+				<div class="columnfour">
+					<img src="images/one.jpg" alt="Cellebration of Life" style="width:100%" onclick="myFunction();" > 
+				</div>
+				<div class="columnfour">
+					<img src="images/two.jpg" alt="The Love: highlighted" style="width:100%" onclick="myFunction();"> 
+				</div>
+				<div class="columnfour">
+					<img src="images/three.jpg" alt="I can feel the void" style="width:100%" onclick="myFunction();">
+				</div>
+				<div class="columnfour">
+					<img src="images/four.jpg" alt="six feet over" style="width:100%" onclick="myFunction();">
+				</div>
+				<div class="columnfour">
+					<img src="images/five.jpg" alt="Bleending in the wind" style="width:100%" onclick="myFunction();">
+				</div>
+				<div class="columnfour">
+					<img src="images/six.jpg" alt="Into the News" style="width:100%" onclick="myFunction();">
+				</div>
+				<div class="columnfour">
+					<img src="images/seven.jpg" alt="Remember?" style="width:100%" onclick="myFunction();">
+				</div>
+				<div class="columnfour">
+					<img src="images/eight.jpg" alt="Ordinary Friend" style="width:100%" onclick="myFunction();">
+				</div>
+			</div>
+			<div class="containerExpanded">
+				<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> 
+					<img id="expandedImage" style="width:97%" src="non" alt=""> 
+				<div id="imageandtext"></div> 
+			</div>
+		
+	</div>
+	<div id="footer"> 
+		<p>Copyright &copy; 2020 - Galerist Gatekeepers</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+	<link rel="stylesheet"  type="text/css" href="css/loginmember.css"/> 
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
+	<script src="js/loginmember.js"></script> 
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:wght@300;400;500;700&family=Rubik:wght@900&display=swap" rel="stylesheet"> 
+		<title>Gallerist Gatekeepers</title> 
+</head>
+<div>
+	<div id="banner"> 
+			<h1>Gallerist Gatekeepers</h1>
+	</div>
+		<div id="mySideBar" class="sidebar"> 
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
+			<a href="index.html">Home</a>
+			<a href="meetTheArtist.html">Meet the artist</a>
+			<a href="gallery.html">Gallery Exhibition</a>
+			<a href="store02.html">Shopping</a>
+			<a href="stopToBuy.html">Stop to Buy</a>
+			<a href="aboutUs.html">About Us</a>
+			<a href="loginmember.html">Member Area</a>
+			<a href="contactUs.html">Contact Us</a>
+			
+		</div>	
+			<div id="main"> 
+				<span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; menu</span> 
+				<div id="container">
+					<div class="login-field">
+						<div class="login"> <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Login</label> 
+							<div class="login-space">
+									<div class="group"> <label for="user" class="label">Username</label> <input id="usern" type="text" class="input" placeholder="Enter your username" required="required">
+										<div class="group"> <label for="pass" class="label">Password</label> <input id="passw" type="password" class="input" name="password" placeholder="Enter your password" required>
+											<div class="group"> <input id="check" type="checkbox" class="check" checked> <label for="check"> Keep me Signed in</label>
+												<div class="group"> <a href="member.html"> <input type="submit" class="button" value="Sign In" ></a>
+													<div class="bottom">
+														<div class="foot"> 
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+					<div class="signupForm">
+						<div class="singup-field" >
+							<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+							<div class="singup-space" >
+								<div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Create your Username" required>
+									<div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" name="password" placeholder="Create your password" required>
+										<div class="group"> <label for="pass" class="label">Repeat Password</label> <input id="pass1" type="password" class="input" name="password" placeholder="Repeat your password" required> 
+											<div class="group"> <label for="pass" class="label">Email Address</label> <input id="pass2" type="text" class="input" placeholder="Enter your email address" required>
+												<div class="group"> <input type="button" class="button" value="Sign Up" onclick="alertgo()">
+													<div class="bottom">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>				
+		</div>
+
+<div id="footer"> 
+		<p>Copyright &copy; 2020 - Galerist Gatekeeprs</p>
+	</div>
+</body>
+</html>
