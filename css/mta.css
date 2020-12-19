@@ -1,0 +1,112 @@
+#banner{
+	text-align:center; 
+	background-color:  #F4F3F4; 
+	opacity: 1; 
+	color: #d50b53;
+	font-family: 'Black Ops One', cursive; 
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+}
+
+.sidebar{
+  padding-top: 40px; 
+  position: fixed; 
+  z-index: 1; 
+  background-color: #F4F3F4; 
+  overflow-x: hidden; 
+  transition: 0.3s; 
+  height: 100%; 
+  width: 0; 
+}
+
+.sidebar a{
+  padding: 6px 6px 6px 30px; 
+  text-decoration: none; 
+  font-family: 'Black Ops One', cursive; 
+  font-size: 25px; 
+  color: #d50b53;
+  display: block; 
+  transition: 0.4s; 
+}
+
+.sidebar a:hover{
+  background-color: #824CA7;
+  color: #F4F3F4;
+}
+
+.sidebar .closebtn{
+  position: absolute; 
+  top: 0; 
+  right: 20px;
+  font-size: 2em; 
+  margin-left: 30px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 20px;}
+  .sidebar a {font-size: 16px;}
+} 
+
+#main{
+	background-color: #F4F3F4;
+	color: #A882C1;
+	opacity: 1; 
+	font-family: 'Rubik', sans-serif; 
+}
+body, html{
+    height: 100%; 
+	margin: 0; 
+}
+
+.heroimg{
+	background-image: url("../images/mta_header.jpg");
+	font-family: 'Black Ops One', cursive; 
+	color: #F4F3F4;
+	background-position: center;
+	background-repeat: no-repeat; 
+	position: relative;
+	display: flex;
+	width: 100vw;
+	height: 65vh;
+}
+
+.herotxt{
+  text-align: center;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F4F3F4;
+}
+
+.hero h1{ 
+    font-size: 6em;
+    margin-top: 0; 
+    margin-bottom: 0.5em;
+	color: #F4F3F4;
+}
+
+.textmain{
+	text-align: center;
+	font-size: 1.2em;
+	letter-spacing: .2rem;
+}
+
+#footer{
+	clear: both; 
+	text-align: center;
+	background-color: #F4F3F4;
+	opacity: 1;
+	color: #d50b53;
+	font-family: 'Black Ops One', cursive; 
+	padding-top: 15px; 
+	padding-bottom: 15px; 
+}
+
+@media screen and (min-width: 1500px) {
+  div#headerWrapper, 
+  div#navSuppWrapper { 
+    width: 100% !important; 
+    margin: auto;
+  }
+}

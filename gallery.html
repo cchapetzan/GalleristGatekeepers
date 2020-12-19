@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+	<meta http-equiv='X-UA-Compatible' content="IE=edge"> 
+	<title>Gallerist Gatekeepers</title> 
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
+	<script src="js/gallery.js"></script> 
+	<link rel="stylesheet"  type="text/css" href="css/gallery.css"/> 
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:wght@300;400;500;700&family=Rubik:wght@900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div id="banner"> 
+			<h1>Gallerist Gatekeepers</h1> 
+	</div>
+		<div id="mySideBar" class="sidebar"> 
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+			<a href="index.html">Home</a>
+			<a href="meetTheArtist.html">Meet the artist</a>
+			<a href="gallery.html">Gallery Exhibition</a>
+			<a href="store02.html">Shopping</a>
+			<a href="stopToBuy.html">Stop to Buy</a>
+			<a href="aboutUs.html">About Us</a>
+			<a href="loginmember.html">Member Area</a>
+			<a href="contactUs.html">Contact Us</a>
+		</div>	
+	<div id="main"> 
+	<span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; menu</span> 
+		<div style="text-align:center">
+			<h1>F.L.U.I.D. VIRTUAL EXHIBITION</h1>
+			<h3>All paintings will be available in a number of 5 copies each from Feb.2021</h3>
+			<p>Click on the images below to see details on the bottom of the page</p>
+		</div>
+			<div class="galleryrows">
+				<div class="columnfour">
+					<img src="images/paint1.jpg" alt="Cellebration of Life" style="width:100%" onclick="myFunction(this);"> 
+				</div>
+				<div class="columnfour">
+					<img src="images/paint2.jpg" alt="Highlighting the Love" style="width:100%" onclick="myFunction(this);"> 
+				</div>
+				<div class="columnfour">
+					<img src="images/paint3.jpg" alt="See your true colours" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="columnfour">
+					<img src="images/paint4.jpg" alt="U and the Uni-verse" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="columnfour">
+					<img src="images/paint5.jpg" alt="The (in)visible Fear" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="columnfour">
+					<img src="images/paint6.jpg" alt="Sunny days from my window" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="columnfour">
+					<img src="images/paint7.jpg" alt="Clovers of lovers" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="columnfour">
+					<img src="images/paint8.jpg" alt="Edge of Glory" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="columnfour">
+					<img src="images/paint9.jpg" alt="Pieces of you" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="columnfour">
+					<img src="images/paint10.jpg" alt="Amy and the Ocean" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="columnfour">
+					<img src="images/paint11.jpg" alt="Sparkling notes from Sky" style="width:100%" onclick="myFunction(this);">
+				</div>
+				<div class="columnfour">
+					<img src="images/paint12.jpg" alt="Red days gone by" style="width:100%" onclick="myFunction(this);">
+				</div>
+			</div>
+			<div class="containerExpanded">
+				<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> 
+					<img id="expandedImage" style="width:97%" src="non" alt=""> 
+				<div id="imageandtext"></div> 
+			</div>
+		
+	</div>
+	<div id="footer"> 
+		<p>Copyright &copy; 2020 - Galerist Gatekeepers</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+#banner{
+	text-align:center; 
+	background-color:  #F4F3F4; 
+	opacity: 1; 
+	color: #d50b53;
+	font-family: 'Black Ops One', cursive; 
+	padding-top: 5px; 
+	padding-bottom: 5px; 
+}
+
+.sidebar{
+  padding-top: 40px; 
+  position: fixed; 
+  z-index: 1; 
+  background-color: #F4F3F4; 
+  overflow-x: hidden; 
+  transition: 0.3s; 
+  height: 100%; 
+  width: 0; 
+}
+
+.sidebar a{
+  padding: 6px 6px 6px 30px; 
+  text-decoration: none; 
+  font-family: 'Black Ops One', cursive; 
+  font-size: 25px; 
+  color: #d50b53;
+  display: block; 
+  transition: 0.4s; 
+}
+
+.sidebar a:hover{
+  background-color: #824CA7;
+  color: #F4F3F4;
+}
+
+.sidebar .closebtn{
+  position: absolute; 
+  top: 0; 
+  right: 20px;
+  font-size: 2em; 
+  margin-left: 30px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 20px;}
+  .sidebar a {font-size: 16px;}
+} 
+
+#main{
+	background-color: #F4F3F4;
+	color: #A882C1;
+	opacity: 1; 
+	font-family: 'Rubik', sans-serif; 
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0; 
+  font-family: 'Rubik', sans-serif;
+ 
+}
+
+.columnfour {
+  float: left; 
+  width: 25%; 
+  padding: 10px; 
+}
+
+.columnfour img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.columnfour img:hover {
+  opacity: 1; 
+}
+
+.galleryrows:after { 
+  content: "";
+  display: table; 
+  clear: both; 
+}
+
+.containerExpanded {
+  position: relative;
+  display: none;  
+}
+
+#imageandtext {
+  position: absolute; 
+  bottom: 20px;
+  left: 15px;
+  color: #000004; 
+  font-size: 2em; 
+}
+.closebtn {
+  position: absolute; 
+  top: 10px;
+  right: 15px;
+  color: #A882C1;
+  font-size: 2em; 
+  cursor: pointer;
+}
+
+#footer{
+	clear: both; 
+	text-align: center;
+	background-color: #F4F3F4;
+	opacity: 1;
+	color: #d50b53;
+	font-family: 'Black Ops One', cursive; 
+	padding-top: 15px; 
+	padding-bottom: 15px; 
+}
+
+@media screen and (min-width: 1500px) {
+  div#headerWrapper, 
+  div#navSuppWrapper { 
+    width: 100% !important; 
+    margin: auto;
+  }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+	<meta http-equiv='X-UA-Compatible' content="IE=edge"> 
+	<title>Gallerist Gatekeepers</title> 
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
+	<script src="js/store02.js"></script>
+	<link rel="stylesheet"  type="text/css" href="css/store02.css"/> 
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:wght@300;400;500;700&family=Rubik:wght@900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div id="banner"> 
+			<h1>Gallerist Gatekeepers</h1> 
+	</div>
+		<div id="mySideBar" class="sidebar"> 
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+			<a href="index.html">Home</a>
+			<a href="meetTheArtist.html">Meet the artist</a>
+			<a href="gallery.html">Gallery Exhibition</a>
+			<a href="store02.html">Shopping</a>
+			<a href="stopToBuy.html">Stop to Buy</a>
+			<a href="aboutUs.html">About Us</a>
+			<a href="loginmember.html">Member Area</a>
+			<a href="contactUs.html">Contact Us</a>
+		</div>	
+	<div id="main"> 
+	<span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; menu</span> 
+		 <div class="heroimg">
+			<div class="herotxt">
+				<h1 style="font-size:60px">F.L.U.I.D.</h1> 
+				<h2>.:AS LIFE SHOULD BE:.</h2> 
+			</div>
+		</div> 
+	</div>
+        <section class="container" id="container">
+            <div class="store-products" id="store-products">
+                <div class="store-product">    
+                    <div class="store-product-details">
+                        <span class="store-product-price">999.99</span>
+                        <button class="btn btn-main store-product-button" type="button">ADD TO CART</button>
+                    </div>                
+                    <img class="store-product-image" src="./images/paint1.jpg">
+                    <span class="store-product-title">Cellebration of Life</span>
+                    
+                </div>
+                <div class="store-product">
+                    <div class="store-product-details">
+                        <span class="store-product-price">499.99</span>
+                        <button class="btn btn-main store-product-button"type="button">ADD TO CART</button>
+                    </div>
+                    <img class="store-product-image" src="./images/paint2.jpg">
+                    <span class="store-product-title">Highlighting the Love</span>
+                    
+                </div>
+                <div class="store-product">
+                    <div class="store-product-details">
+                        <span class="store-product-price">399.99</span>
+                        <button class="btn btn-main store-product-button" type="button">ADD TO CART</button>
+                    </div>                    
+                    <img class="store-product-image" src="./images/paint3.jpg">
+                    <span class="store-product-title">See your true colours</span>
+                    
+                </div>
+                <div class="store-product">  
+                    <div class="store-product-details">
+                        <span class="store-product-price">599.99</span>
+                        <button class="btn btn-main store-product-button" type="button">ADD TO CART</button>
+                    </div>                  
+                    <img class="store-product-image" src="./images/paint4.jpg">
+                    <span class="store-product-title">U and the Uni-verse</span>
+                </div>
+                <div class="store-product">     
+                    <div class="store-product-details">
+                        <span class="store-product-price">599.99</span>
+                        <button class="btn btn-main store-product-button" type="button">ADD TO CART</button>
+                    </div>               
+                    <img class="store-product-image" src="./images/paint5.jpg">
+                    <span class="store-product-title">The (in)visible Fear</span>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="cart-title">YOUR FUTURE GALLARY AWAITS</h2>
+            <div class="cart-row">
+                <span class="cart-header cart-column cart-product ">PAINTINGS</span>
+                <span class="cart-header cart-column cart-amount">AMOUNT</span>
+                <span class="cart-header cart-column cart-price">PRICE</span>
+                
+            </div>
+            <div class="cart-products"></div>
+             <!-- FOR TESTING PURPOSE in "cart-products"
+                    <div class="cart-row">
+                    <div class="cart-product cart-column">
+                        <img class="cart-product-image" src="./images/paint5.jpg" width="100" height="100">
+                        <span class="cart-product-title">The (in)visible Fear</span>
+                    </div>
+                    <span class="cart-price cart-column">599.99</span>
+                    <div class="cart-amount cart-column">
+                        <input class="cart-amount-input" type="number" value="1">
+                        <button class="btn btn-remove" type="button">REMOVE</button>
+                    </div>
+                </div> -->
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">€ 0.00</span>
+            </div>
+            <button class="btn btn-main btn-purchase" type="button">PURCHASE</button>
+                <span class="instructions">We hope that everyone can take good care of Wendy's Works. </span>
+                <br>
+                <span class="instructions">After the order is placed, we will contact you shortly for further details.</span>
+
+        </section>
+        <div id="footer"> 
+		<p>Copyright &copy; 2020 - Galerist Gatekeepers</p>
+	</div>
+</body>
+</html>
